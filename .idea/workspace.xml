@@ -15,16 +15,27 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jpa" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring5-samples" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2106" y="-32" key="FileChooserDialogImpl" timestamp="1612237295618">
+    <state x="2106" y="-32" key="FileChooserDialogImpl" timestamp="1614162511976">
       <screen x="1366" y="-307" width="1920" height="1040" />
     </state>
-    <state x="2106" y="-32" key="FileChooserDialogImpl/0.0.1366.728/1366.-307.1920.1040@1366.-307.1920.1040" timestamp="1612237295618" />
+    <state x="2106" y="-32" key="FileChooserDialogImpl/0.0.1366.728/1366.-307.1920.1040@1366.-307.1920.1040" timestamp="1614162511976" />
+    <state x="1966" y="-84" key="NewModule_or_Project.wizard" timestamp="1614162514091">
+      <screen x="1366" y="-307" width="1920" height="1040" />
+    </state>
+    <state x="1966" y="-84" key="NewModule_or_Project.wizard/0.0.1366.728/1366.-307.1920.1040@1366.-307.1920.1040" timestamp="1614162514091" />
+    <state x="1979" y="-177" key="new project wizard" timestamp="1614162479627">
+      <screen x="1366" y="-307" width="1920" height="1040" />
+    </state>
+    <state x="1979" y="-177" key="new project wizard/0.0.1366.728/1366.-307.1920.1040@1366.-307.1920.1040" timestamp="1614162479627" />
   </component>
 </project>

@@ -1,0 +1,28 @@
+GET http://localhost:8080/api/v1/user/projection
+Accept: application/json
+
+###
+GET http://localhost:8080/api/v1/user/dto
+Accept: application/json
+
+###
+GET http://localhost:8080/api/v1/user/interface
+Accept: application/json
+
+###
+GET http://localhost:8080/api/v1/user/query?name=ross
+Accept: application/json
+
+###
+GET http://localhost:8080/api/v1/user/query/like?name=oss
+Accept: application/json
+
+###
+GET http://localhost:8080/api/v1/user/query/native?name=ross&field=2
+Accept: application/json
+
+###
+GET http://localhost:8080/api/v1/user/query/page?name=ross
+Accept: application/json
+
+###
