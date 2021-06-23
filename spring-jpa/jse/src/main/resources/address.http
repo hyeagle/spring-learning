@@ -1,0 +1,7 @@
+POST http://localhost:8080/api/v1/address
+
+###
+GET http://localhost:8080/api/v1/address/example?name=ross&email=ross@example.com&age=30&addr=nj
+
+###
+GET http://localhost:8080/api/v1/address/jse?name=ross&email=ross@example.com&age=15&addr=nj

@@ -1,18 +1,16 @@
-package com.example.jpa.entity.model;
+package com.example.jpa.jse.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import lombok.*;
 
 import javax.persistence.*;
 
 @Entity
-@Table
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+@ToString(exclude = "user")
 public class UserAddress {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -20,7 +18,7 @@ public class UserAddress {
 
     private String address;
 
-    @ManyToOne(cascade = CascadeType.PERSIST)
-    @JoinColumn(name = "user_id")
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JsonIgnore
     private User user;
 }

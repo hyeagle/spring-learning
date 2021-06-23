@@ -1,5 +1,6 @@
 package com.example.jpa.entity.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 
@@ -40,6 +41,6 @@ public class User {
 
     @OneToOne(mappedBy = "user")  // 双向关联
     @Transient  // 不加这个注解的话，带 userInfo 保存会报错
+    @JsonBackReference  // 序列化时，防止循环引用
     private UserInfo userInfo;
 }
-
