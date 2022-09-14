@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.learning.nacos1.comditionbean.BeanConditionConfig,\
+com.learning.nacos1.comditionbean.BeanConfiguration
