@@ -1,6 +1,7 @@
 package com.example.jpa.advance.dao;
 
 import com.example.jpa.advance.model.User;
+import com.example.jpa.advance.model.UserCount;
 import com.example.jpa.advance.model.UserDto;
 import com.example.jpa.advance.model.UserInterface;
 import org.springframework.data.domain.Page;
@@ -28,4 +29,10 @@ public interface UserRepository extends JpaRepository<User, Long> {
 
     @Query(value = "select u From User u where u.name=:name")
     Page<User> findByName(String name, Pageable pageable);
+
+    @Query(value = "select name, count(*) countNum from user group by name", nativeQuery = true)
+    List<UserCount> groupCount();
+
+    @Query(value = "select name, max(id) maxId from user group by name", nativeQuery = true)
+    List<UserCount> groupMax();
 }
